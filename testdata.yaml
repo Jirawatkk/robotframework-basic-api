@@ -1,0 +1,31 @@
+url: 
+  main: http://localhost:8082
+  path:
+    login: /login
+    assets: /assets
+assets_data:
+  post:
+    assetId: a016b
+    assetName: 'Mac pro m2'
+    assetType: 1
+    inUse: true
+  put:
+    assetId: a016b
+    assetName: 'Mac pro m3'
+    assetType: 1
+    inUse: true
+
+login:
+  valid:
+    username: doppio
+    password: weBuildBestQa
+  invalid:
+    username: doppio222
+    password: 12345
+session_name: assetSession
+error_message:
+  message_no_permission_to_access_data: you do not have access to this resource
+  error: error
+  success: success
+  failed: failed
+  login_message: invalid username or password
