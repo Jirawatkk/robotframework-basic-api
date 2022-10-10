@@ -14,7 +14,6 @@ assets_data:
     assetName: 'Mac pro m3'
     assetType: 1
     inUse: true
-
 login:
   valid:
     username: doppio
@@ -23,9 +22,10 @@ login:
     username: doppio222
     password: 12345
 session_name: assetSession
-error_message:
+message:
   message_no_permission_to_access_data: you do not have access to this resource
   error: error
   success: success
   failed: failed
   login_message: invalid username or password
+  not_exist_in_db: cannot find this id in database
